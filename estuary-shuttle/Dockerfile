@@ -1,4 +1,4 @@
-FROM golang:1.17
+FROM golang:1.18
 ARG BRANCH=master
 RUN apt-get update && \
     apt-get install -y wget jq hwloc ocl-icd-opencl-dev git libhwloc-dev pkg-config make  && \
